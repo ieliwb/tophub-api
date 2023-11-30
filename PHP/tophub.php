@@ -54,6 +54,6 @@ $apikey = '';
 $tophub = new Tophub($apikey);
 $result_nodes = $tophub->nodes(1);
 $result_node = $tophub->node('mproPpoq6O');
-$result_node_historys = $tophub->node('mproPpoq6O', '2023-01-01');
+$result_node_historys = $tophub->nodeHistorys('mproPpoq6O', '2023-01-01');
 $result_search = $tophub->search('苹果', 1, 'mproPpoq6O');
 
